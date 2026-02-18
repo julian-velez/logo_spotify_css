@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212; /* Fondo oscuro */
+  margin: 0;
+}
+.spotify-logo {
+  position: relative;
+  width: 200px; /* Tamaño del logo */
+  height: 200px;
+  border-radius: 50%;
+  background-color: #1db954; /* Color verde de Spotify */
+}
+.wave {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #121212; /* Color del fondo */
+}
+.wave1 {
+  width: 60%;
+  height: 10px;
+  top: 30%;
+}
+.wave2 {
+  width: 80%;
+  height: 10px;
+  top: 45%;
+}
+.wave3 {
+  width: 80%;
+  height: 10px;
+  top: 60%;
+  transform: translate(-50%);
+}
+
+h1 {
+  margin: 12px;
+  color: #36c76e;
+  font-size: 50px;
+}
+ 
